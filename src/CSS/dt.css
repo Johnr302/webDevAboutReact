@@ -3,6 +3,12 @@
   margin: auto;
 }
 
+.auto-fit {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 600px));
+  justify-content: center;
+}
+
 body {
   color: white;
   background-image: url("https://images.unsplash.com/photo-1472803828399-39d4ac53c6e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2321&q=80");
@@ -19,12 +25,10 @@ body {
 
 .card {
   border-radius: 8px;
-  width: 600px;
   background-color: white;
   color: black;
-  margin-bottom: 15px;
+  margin: 20px;
   box-shadow: 3px 3px 6px 0 black;
-  /* text-align: center; */
   box-sizing: border-box;
   padding-bottom: 20px;
   overflow: hidden;
@@ -86,10 +90,6 @@ picture source {
 
 .profile-pic {
   border-radius: 8px;
-}
-
-#projects {
-  display: inline-block;
 }
 
 .social-links {

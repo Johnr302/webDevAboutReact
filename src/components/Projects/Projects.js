@@ -1,17 +1,16 @@
 import React from "react";
-import Lucent from "./Cards/Lucent.js";
-import WhackAMole from "./Cards/WhackAMole.js";
-import MemoryGame from "./Cards/MemoryGame.js";
-import Github from "./Cards/Github.js";
-
+// import Card from "Card.js";
+import WhackAMole from "./Cards/WhackAMole";
+import Lucent from "./Cards/Lucent";
 const Projects = () => {
   return (
     <section id="projects">
       <h1>Projects</h1>
-      <Lucent />
-      <WhackAMole />
-      <MemoryGame />
-      <Github />
+      <section className="auto-fit">
+        <Lucent />
+        <WhackAMole />
+        {/* <Card /> */}
+      </section>
     </section>
   );
 };
