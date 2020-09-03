@@ -11,6 +11,7 @@ const Header = () => {
         <a
           class="email-link"
           target="_blank"
+          rel="noopener noreferrer"
           href="mailto:johnathon.regalado@gmail.com"
         >
           Johnathon Regalado

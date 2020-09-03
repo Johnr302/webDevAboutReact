@@ -37,7 +37,7 @@ const Card = (props) => {
       </picture>
       <h2>{title}</h2>
       <p>{description}</p>
-      <a href={viewProjectLink} target="_blank" rel="noreferrer noopener">
+      <a href={viewProjectLink} target="_blank" rel="noopener noreferrer">
         View Project
       </a>
     </section>

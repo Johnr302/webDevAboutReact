@@ -8,6 +8,7 @@ const SocialLinks = () => {
           <a
             target="_blank"
             href="https://www.linkedin.com/in/johnathon-regalado-a4b00b1a5/"
+            rel="noopener noreferrer"
           >
             <img
               class="social-link-item social-link-item-linkedin"
@@ -17,7 +18,11 @@ const SocialLinks = () => {
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://github.com/johnr302">
+          <a
+            target="_blank"
+            href="https://github.com/johnr302"
+            rel="noopener noreferrer"
+          >
             <img
               class="social-link-item social-link-item-github"
               src="https://cdn3.iconfinder.com/data/icons/sociocons/256/github-sociocon.png"
