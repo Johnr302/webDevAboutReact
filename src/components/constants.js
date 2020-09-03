@@ -36,7 +36,7 @@ const cardArray = [
     viewProjectLink: "https://github.com/Johnr302",
   },
   {
-    srcsetMobile: "images/Memory-Game-Thumbnail.png",
+    srcsetMobile: "images/Memory-Game-Thumbnail-Mobile.png",
     srcsetDesktop: "images/Memory-Game-Thumbnail.png",
     image: "http://via.placeholder.com/300",
     alt: "Memory Game screenshot",
