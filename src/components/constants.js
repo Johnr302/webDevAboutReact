@@ -1,6 +1,6 @@
 const cardArray = [
   {
-    srcsetMobile: "images/Lucent1-thumbnail.png",
+    srcsetMobile: "images/Lucent1-600.png",
     srcsetDesktop: "images/Lucent1.png",
     image: "http://via.placeholder.com/300",
     alt: "Lucent screenshot",
@@ -14,8 +14,8 @@ const cardArray = [
       "https://projects.invisionapp.com/d/main?origin=v7#/projects/prototypes/19690062",
   },
   {
-    srcsetMobile: "images/Whack-A-Mole-Thumbnail.png",
-    srcsetDesktop: "images/HQ-Whack-A-Mole-Thumbnail.png",
+    srcsetMobile: "images/Whack-A-Mole-Thumbnail-600.png",
+    srcsetDesktop: "images/Whack-A-Mole-Thumbnail.png",
     image: "http://via.placeholder.com/300",
     alt: "Whack-A-Mole screenshot",
     title: "Whack-A-Mole Game",
@@ -26,7 +26,7 @@ const cardArray = [
     viewProjectLink: "https://pj-whack-a-mole.netlify.app/",
   },
   {
-    srcsetMobile: "images/Github-Thumbnail-300px.png",
+    srcsetMobile: "images/Github-Thumbnail-600.png",
     srcsetDesktop: "images/Github-Thumbnail.png",
     image: "http://via.placeholder.com/300",
     alt: "Github screenshot",
@@ -36,7 +36,7 @@ const cardArray = [
     viewProjectLink: "https://github.com/Johnr302",
   },
   {
-    srcsetMobile: "images/Memory-Game-Thumbnail-Mobile.png",
+    srcsetMobile: "images/Memory-Game-Thumbnail-600.png",
     srcsetDesktop: "images/Memory-Game-Thumbnail.png",
     image: "http://via.placeholder.com/300",
     alt: "Memory Game screenshot",

@@ -1,2 +1,4 @@
-@import url(mobile.css) (pointer: coarse);
+@media only screen and (max-device-width: 480px) {
+  @import url(mobile.css);
+}
 @import url(dt.css);
