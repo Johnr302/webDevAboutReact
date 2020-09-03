@@ -16,12 +16,7 @@ const Header = () => {
           Johnathon Regalado
         </a>
       </section>
-      <img
-        class="profile-pic"
-        src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/61138979_3143531755660610_8766663429554438144_n.jpg?_nc_cat=104&_nc_sid=8bfeb9&_nc_ohc=VzACoraPfwsAX_fQ2st&_nc_ht=scontent-ort2-2.xx&oh=7bd2b2decbeb5b18d3b7da4b3a43317e&oe=5F01E3D5"
-        alt="Johnathon"
-        width="200"
-      />
+      <img class="profile-pic" src="" alt="Johnathon" width="200" />
     </header>
   );
 };
