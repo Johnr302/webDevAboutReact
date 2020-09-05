@@ -89,7 +89,9 @@ picture source {
 }
 
 .profile-pic {
-  border-radius: 8px;
+  border-radius: 81px;
+  width: 150px;
+  padding: 10px 0;
 }
 
 .social-links {

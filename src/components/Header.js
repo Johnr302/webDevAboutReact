@@ -17,7 +17,12 @@ const Header = () => {
           Johnathon Regalado
         </a>
       </section>
-      <img class="profile-pic" src="" alt="Johnathon" width="200" />
+      <img
+        class="profile-pic"
+        src="images/profile-pic.jpg"
+        alt="Johnathon"
+        width="200"
+      />
     </header>
   );
 };
