@@ -2,11 +2,13 @@
   width: 80%;
   margin: auto;
 }
+
 .auto-fit {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 600px));
   justify-content: center;
 }
+
 body {
   color: white;
   background-image: url("https://images.unsplash.com/photo-1472803828399-39d4ac53c6e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2321&q=80");
@@ -15,10 +17,12 @@ body {
   text-align: center;
   font-family: "Open Sans", sans-serif;
 }
+
 .button:hover {
   background-color: #035096;
   color: white;
 }
+
 .card {
   border-radius: 8px;
   background-color: white;
@@ -28,61 +32,72 @@ body {
   box-sizing: border-box;
   padding-bottom: 20px;
   overflow: hidden;
+
+  a {
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 16px;
+    margin-bottom: 8px;
+    background-color: #035096;
+    color: white;
+    text-decoration: none;
+  }
+
+  .thumbnail {
+    border-radius: 8px 8px 0 0;
+  }
+
+  p {
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
 }
-.card a {
-  display: inline-block;
-  border: 1px solid;
-  border-radius: 8px;
-  padding: 20px;
-  font-size: 16px;
-  margin-bottom: 8px;
-  background-color: #035096;
-  color: white;
-  text-decoration: none;
-}
-.card .thumbnail {
-  border-radius: 8px 8px 0 0;
-}
-.card p {
-  text-align: left;
-  margin-left: 40px;
-  margin-right: 40px;
-}
+
 .contact-info {
   display: grid;
   width: 200px;
   margin: auto;
+
+  a {
+    color: white;
+  }
 }
-.contact-info a {
-  color: white;
-}
+
 header {
   text-align: center;
 }
 img {
   width: 100%;
 }
+
 picture {
   display: inline-block;
   box-shadow: 0px 8px 15px 0px #e8e8e8;
   height: 354px;
   border-bottom: 1px solid #ccc;
+
+  source {
+    width: 100%;
+    position: relative;
+  }
 }
-picture source {
-  width: 100%;
-  position: relative;
-}
+
 .profile-pic {
   border-radius: 81px;
   width: 150px;
   padding: 10px 0;
 }
+
 .social-links {
   list-style: none;
   display: inline-flex;
   margin: 0;
   padding: 0;
 }
+
 .social-link-item {
   margin-left: 10px;
   width: 30px;
