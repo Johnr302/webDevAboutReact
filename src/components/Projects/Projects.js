@@ -1,5 +1,5 @@
 import React from "react";
-import makeCard from "./Cards/Card";
+import makeCard from "./Card";
 
 const Projects = () => {
   return (
