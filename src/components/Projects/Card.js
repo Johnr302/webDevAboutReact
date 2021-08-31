@@ -1,5 +1,5 @@
 import React from "react";
-import cardArray from "../../constants";
+import cardArray from "../constants";
 
 function makeCard() {
   return cardArray.map((card) => {
