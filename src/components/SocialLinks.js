@@ -12,7 +12,7 @@ const SocialLinks = () => {
           >
             <img
               class="social-link-item social-link-item-linkedin"
-              src="https://image.flaticon.com/icons/svg/145/145807.svg"
+              src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg"
               alt="linked in"
             />
           </a>
