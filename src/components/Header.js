@@ -17,12 +17,7 @@ const Header = () => {
           Johnathon Regalado
         </a>
       </section>
-      <img
-        class="profile-pic"
-        src="images/profile-pic.jpg"
-        alt="Johnathon"
-        width="200"
-      />
+      <img class="profile-pic" src="images/profile-pic2.jpeg" alt="Johnathon" />
     </header>
   );
 };
