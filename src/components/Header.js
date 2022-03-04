@@ -16,6 +16,9 @@ const Header = () => {
         >
           Johnathon Regalado
         </a>
+        <a class="resume" href="images/Johnathon_Regalado_Resume.pdf" download>
+          Resume
+        </a>
       </section>
       <img class="profile-pic" src="images/profile-pic2.jpeg" alt="Johnathon" />
     </header>

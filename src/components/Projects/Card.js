@@ -12,6 +12,7 @@ function makeCard() {
         title={card.title}
         description={card.description}
         viewProjectLink={card.viewProjectLink}
+        viewCode={card.viewCode}
       />
     );
   });
@@ -26,6 +27,7 @@ const Card = (props) => {
     title,
     description,
     viewProjectLink,
+    viewCode,
   } = { ...props };
 
   return (
@@ -40,6 +42,11 @@ const Card = (props) => {
       <a href={viewProjectLink} target="_blank" rel="noopener noreferrer">
         View Project
       </a>
+      {viewCode !== "" ? (
+        <a href={viewCode} target="_blank" rel="noopener noreferrer">
+          View Code
+        </a>
+      ) : null}
     </section>
   );
 };
