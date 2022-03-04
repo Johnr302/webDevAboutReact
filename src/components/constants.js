@@ -5,7 +5,7 @@ const cardArray = [
     image: "http://via.placeholder.com/300",
     alt: "Helmet certification screenshot",
     title: "Helmet Certification",
-    description: `This app was built with React.js utilizing an API through airtable.com `,
+    description: `React application that uses an API with Airtable data for a simple layout of certified motorcycle helmets.`,
     viewProjectLink: "https://helmet-cert.netlify.app/",
     viewCode: "https://github.com/Johnr302/helmet-cert",
   },
