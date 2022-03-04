@@ -15,10 +15,10 @@ const cardArray = [
     image: "http://via.placeholder.com/300",
     alt: "Whack-A-Mole screenshot",
     title: "Whack-A-Mole Game",
-    description: `The object of the game is to force the individual moles back into their holes by hitting them directly on the head with the mallet, thereby
-    adding to the player's score. Using Test-driven development with Enzyme and React I built a web version of this
+    description: `Using Test-driven development with Enzyme and React I built a web version of this
     game where the object is to wack the mole and gain as many points as
-    possible in the alloted time.`,
+    possible in the alloted time. The object of the game is to force the individual moles back into their holes by hitting them directly on the head with the mallet, thereby
+    adding to the player's score.`,
     viewProjectLink: "https://pj-whack-a-mole.netlify.app/",
     viewCode: "https://github.com/Johnr302/whack-a-mole",
   },
