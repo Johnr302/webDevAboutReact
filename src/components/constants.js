@@ -59,6 +59,26 @@ const cardArray = [
       "https://projects.invisionapp.com/d/main?origin=v7#/projects/prototypes/19690062",
     viewCode: "",
   },
+  {
+    srcsetMobile: "images/Alexander-Great-600.png",
+    srcsetDesktop: "images/Alexander-Great.png",
+    image: "http://via.placeholder.com/300",
+    alt: "Alexander the Great Bio",
+    title: "Alexander the Great Bio",
+    description: `Using semantic HTML and CSS I created a webpage with a short bio on Alexander the Great.`,
+    viewProjectLink: "https://codepen.io/johnr302/full/RwNJvpr",
+    viewCode: "https://codepen.io/johnr302/pen/RwNJvpr",
+  },
+  {
+    srcsetMobile: "images/Survey-form-600.png",
+    srcsetDesktop: "images/Survey-form.png",
+    image: "http://via.placeholder.com/300",
+    alt: "Survey Form",
+    title: "Survey Form",
+    description: `Using semantic HTML and CSS I created a webpage containing a survey form.`,
+    viewProjectLink: "https://codepen.io/johnr302/full/dyPamzw",
+    viewCode: "https://codepen.io/johnr302/pen/dyPamzw",
+  },
 ];
 
 export default cardArray;
