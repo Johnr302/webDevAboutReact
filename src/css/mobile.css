@@ -30,7 +30,8 @@ body {
   color: white;
 }
 .card img {
-  width: 100%;
+  /* width: 100%; */
+  height: 100%;
 }
 .card p {
   padding: 20px;
