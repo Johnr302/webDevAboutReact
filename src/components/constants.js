@@ -1,5 +1,16 @@
 const cardArray = [
   {
+    srcsetMobile: "images/booking-replica-600.png",
+    srcsetDesktop: "images/booking-replica.png",
+    image: "http://via.placeholder.com/300",
+    alt: "Booking.com replica",
+    title: "booking.com refactor",
+    description: `Using booking.com I recreated the home page to match layout and styling utilizing HTML and CSS.`,
+    viewProjectLink: "https://booking-replica-site.netlify.app/",
+    viewCode:
+      "https://github.com/Johnr302/booking-replica-react/blob/main/src/App.js",
+  },
+  {
     srcsetMobile: "images/helmet-cert-600.png",
     srcsetDesktop: "images/helmet-cert.png",
     image: "http://via.placeholder.com/300",
