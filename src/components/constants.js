@@ -8,7 +8,7 @@ const cardArray = [
     description: `Using booking.com I recreated the home page to match layout and styling utilizing HTML and CSS.`,
     viewProjectLink: "https://booking-replica-site.netlify.app/",
     viewCode:
-      "https://github.com/Johnr302/booking-replica-react/blob/main/src/App.js",
+      "https://github.com/Johnr302/booking-replica/blob/master/index.html",
   },
   {
     srcsetMobile: "images/helmet-cert-600.png",
